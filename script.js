@@ -32,7 +32,8 @@ let excludeImageUrls = [
     'https://upload.wikimedia.org/wikipedia/commons/e/eb/Blue_check.svg',
     'https://upload.wikimedia.org/wikipedia/commons/0/03/Green_check.svg',
     'https://upload.wikimedia.org/wikipedia/commons/3/37/People_icon.svg',
-    'https://upload.wikimedia.org/wikipedia/commons/f/f1/Redirect_categorization_symbol.svg'
+    'https://upload.wikimedia.org/wikipedia/commons/f/f1/Redirect_categorization_symbol.svg',
+    'https://upload.wikimedia.org/wikipedia/en/1/1b/Semi-protection-shackle.svg'
 ];
 
 async function getImageURL(randomPageId, randomPageTitle) {
