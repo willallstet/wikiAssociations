@@ -52,7 +52,24 @@ let excludeImageUrls = [
     'https://upload.wikimedia.org/wikipedia/en/8/8c/Extended-protection-shackle.svg',
     'https://upload.wikimedia.org/wikipedia/commons/1/16/EnWiki_redirect_-_Pichilemo.png',
     'https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg',
-    'https://upload.wikimedia.org/wikipedia/en/0/01/A_coloured_voting_box.svg'
+    'https://upload.wikimedia.org/wikipedia/en/0/01/A_coloured_voting_box.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/4/46/Vote_icon.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/7/7e/Essay.svg',
+    'https://upload.wikimedia.org/wikipedia/en/5/5f/Ambox_warning_orange.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/2/21/AFC-Logo.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/e/e0/Decision_making.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/a/a5/Police_man_Twinkle_Head.svg',
+    'https://upload.wikimedia.org/wikipedia/en/5/53/Template-protection-shackle.svg',
+    'https://upload.wikimedia.org/wikipedia/en/6/6c/Wiki_letter_w.svg',
+    'https://upload.wikimedia.org/wikipedia/en/e/e0/Symbol_question.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/e/ed/Decrease2.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/f/fc/View-refresh.svg',
+    'https://upload.wikimedia.org/wikipedia/en/1/1f/Clipboard.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/0/0f/Mergefrom.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/d/d1/Wikipedia_Administrator.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/f/f3/Redirect_arrow.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/0/0c/Red_pog.svg',
+    'https://upload.wikimedia.org/wikipedia/en/0/0f/Cascade-protection-shackle.svg'
 ];
 
 async function getImageURL(randomPageId, randomPageTitle) {
