@@ -18,7 +18,12 @@ let excludeImageUrls = [
     'https://upload.wikimedia.org/wikipedia/commons/9/9c/Kit_body_whitestripes.png',
     'https://upload.wikimedia.org/wikipedia/commons/3/3f/Fairytale_key_enter-2.png',
     'https://upload.wikimedia.org/wikipedia/commons/6/6f/Policies_and_guidelines_indicator.png',
-    'https://upload.wikimedia.org/wikipedia/commons/3/39/Category-diagram.png'
+    'https://upload.wikimedia.org/wikipedia/commons/3/39/Category-diagram.png',
+    'https://upload.wikimedia.org/wikipedia/commons/f/f4/Kit_body_yellowhorizontal.png',
+    'https://upload.wikimedia.org/wikipedia/commons/4/49/Farm-Fresh_printer_add.png',
+    'https://upload.wikimedia.org/wikipedia/en/d/d9/Green_check.png',
+    'https://upload.wikimedia.org/wikipedia/commons/9/9c/Chicken_Eyeglasses_categories.png',
+    'https://upload.wikimedia.org/wikipedia/commons/3/36/Badam_milk_spilled.jpg'
 ];
 
 async function getImageURL(randomPageId, randomPageTitle) {
