@@ -15,7 +15,9 @@ let excludeImageUrls = [
     'https://upload.wikimedia.org/wikipedia/en/c/c2/Crystal_Clear_app_Login_Manager_2.png',
     'https://upload.wikimedia.org/wikipedia/commons/7/79/Example_image_not_to_be_used_in_article_namespace.jpg',
     'https://upload.wikimedia.org/wikipedia/commons/f/f3/Pencil_with_manual_sharpener.png',
-    'https://upload.wikimedia.org/wikipedia/commons/9/9c/Kit_body_whitestripes.png'
+    'https://upload.wikimedia.org/wikipedia/commons/9/9c/Kit_body_whitestripes.png',
+    'https://upload.wikimedia.org/wikipedia/commons/3/3f/Fairytale_key_enter-2.png',
+    'https://upload.wikimedia.org/wikipedia/commons/6/6f/Policies_and_guidelines_indicator.png'
 ];
 
 async function getImageURL(randomPageId, randomPageTitle) {
