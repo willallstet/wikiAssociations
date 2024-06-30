@@ -227,6 +227,7 @@ async function fetchRandomImages() {
 
                 const link = document.createElement('a');
                 link.href = secondPageUrl;
+                link.target = "_blank";
 
                 const customElement = document.createElement('div');
                 customElement.classList.add('image-container');
