@@ -36,7 +36,13 @@ let excludeImageUrls = [
     'https://upload.wikimedia.org/wikipedia/en/1/1b/Semi-protection-shackle.svg',
     'https://upload.wikimedia.org/wikipedia/commons/9/97/Canada_film_clapperboard.svg',
     'https://upload.wikimedia.org/wikipedia/en/8/89/Symbol_redirect_vote2.svg',
-    'https://upload.wikimedia.org/wikipedia/commons/f/f9/Crystal_Clear_app_linneighborhood.svg'
+    'https://upload.wikimedia.org/wikipedia/commons/f/f9/Crystal_Clear_app_linneighborhood.svg',
+    'https://upload.wikimedia.org/wikipedia/en/f/f2/Edit-clear.svg',
+    'https://en.wikipedia.org/wiki/1906%20Salisbury%20rail%20crash',
+    'https://upload.wikimedia.org/wikipedia/commons/f/f6/Walnut.png',
+    'https://upload.wikimedia.org/wikipedia/en/f/f4/Ambox_content.png',
+    'https://upload.wikimedia.org/wikipedia/commons/7/7f/Redirect_arrow_without_text_%28cropped%29.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/4/4b/Books-aj.svg_aj_ashton_01.svg'
 ];
 
 async function getImageURL(randomPageId, randomPageTitle) {
@@ -111,8 +117,7 @@ async function fetchRandomImages() {
         let firstLinkData = await firstLinkResponse.json();
         let links = firstLinkData.query.pages[randomPageId].links;
         if (links && links.length > 2) {
-            possibleIndeicies = Array.from(Array(links.length).keys());
-            let firstLinkTitle = links[linkIndex].title;
+            let firstLinkTitle = links[Math.floor(Math.random() * links.length)].title;
             let firstLinkPageUrl = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(firstLinkTitle)}&prop=pageimages|links&format=json&origin=*`;
             let firstLinkPageResponse = await fetch(firstLinkPageUrl);
             let firstLinkPageData = await firstLinkPageResponse.json();
