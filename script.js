@@ -42,7 +42,17 @@ let excludeImageUrls = [
     'https://upload.wikimedia.org/wikipedia/commons/f/f6/Walnut.png',
     'https://upload.wikimedia.org/wikipedia/en/f/f4/Ambox_content.png',
     'https://upload.wikimedia.org/wikipedia/commons/7/7f/Redirect_arrow_without_text_%28cropped%29.svg',
-    'https://upload.wikimedia.org/wikipedia/commons/4/4b/Books-aj.svg_aj_ashton_01.svg'
+    'https://upload.wikimedia.org/wikipedia/commons/4/4b/Books-aj.svg_aj_ashton_01.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/d/de/Check-71-128-204-brightblue.svg',
+    'https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg',
+    'https://upload.wikimedia.org/wikipedia/en/7/74/Ambox_warning_yellow.svg',
+    'https://upload.wikimedia.org/wikipedia/en/f/f1/Stop_hand_nuvola.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/4/43/Test_Template_Info-Icon_-_Version_%282%29.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/7/71/Symbol_redirect_arrow_with_gradient.svg',
+    'https://upload.wikimedia.org/wikipedia/en/8/8c/Extended-protection-shackle.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/1/16/EnWiki_redirect_-_Pichilemo.png',
+    'https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg',
+    'https://upload.wikimedia.org/wikipedia/en/0/01/A_coloured_voting_box.svg'
 ];
 
 async function getImageURL(randomPageId, randomPageTitle) {
