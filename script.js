@@ -110,7 +110,14 @@ let excludeImageUrls = [
     'https://upload.wikimedia.org/wikipedia/commons/e/e8/Noun-linguistics.svg',
     'https://upload.wikimedia.org/wikipedia/commons/a/aa/Merge-arrow.svg',
     'https://upload.wikimedia.org/wikipedia/commons/6/66/DodgerBlue_flag_waving.svg',
-    'https://upload.wikimedia.org/wikipedia/commons/4/49/Star_empty.svg'
+    'https://upload.wikimedia.org/wikipedia/commons/4/49/Star_empty.svg',
+    'https://upload.wikimedia.org/wikipedia/en/0/02/Create-protection-shackle.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/2/2a/Contactus-wmcolors.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/7/73/Blue_pencil.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/8/83/Gnome-insert-image.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/3/34/Ambox_warning_blue.svg',
+    'https://upload.wikimedia.org/wikipedia/commons/7/79/Example_image_not_to_be_used_in_article_namespace.jpg',
+    'https://upload.wikimedia.org/wikipedia/commons/d/d7/Blue_pog.svg'
 ];
 
 async function getImageURL(randomPageId, randomPageTitle) {
